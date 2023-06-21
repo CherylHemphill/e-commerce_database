@@ -12,7 +12,7 @@ Internet retail is one of the largest sectors in the electronic industrties and 
 * [License](#license)
 
 ## Installation
-You will need to install the dependencies running the terminal command <strong> npm i </strong>. <br> After initializing the schema you will then need to seed the database. <br> Get, Post, Put, and Delete are all easily managed using Insomnia.
+You will need to install the dependencies running the terminal command <strong> npm i </strong>. <br>Within the .env file you will need to enter your own credintals.<br> After initializing the schema you will then need to seed the database. <br> Get, Post, Put, and Delete are all easily managed using Insomnia.
 
 ## Usage
 
