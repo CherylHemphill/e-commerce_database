@@ -34,10 +34,10 @@ router.get('/:id', async (req, res) => {
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
-      product_name: "Basketball",
-      price: 200.00,
-      stock: 3,
-      tagIds: [1, 2, 3, 4]
+      "product_name": "Basketball",
+      "price": 200.00,
+      "stock": 3,
+      "tagIds": [1, 2, 3, 4]
     }
   */
   Product.create(req.body)
@@ -63,9 +63,8 @@ router.post('/', (req, res) => {
     });
 });
 
-// update product
+// update product by its id
 router.put('/:id', (req, res) => {
-  // update product data
   Product.update(req.body, {
     where: {
       id: req.params.id,
@@ -77,7 +76,7 @@ router.put('/:id', (req, res) => {
         ProductTag.findAll({
           where: { product_id: req.params.id }
         }).then((productTags) => {
-          // create filtered list of new tag_ids
+          // create list of new tag_ids
           const productTagIds = productTags.map(({ tag_id }) => tag_id);
           const newProductTags = req.body.tagIds
           .filter((tag_id) => !productTagIds.includes(tag_id))
@@ -120,6 +119,7 @@ router.delete('/:id', async (req, res) => {
     if(!productData) {
       res.status(404).json({message: 'No product found with that id.'});
     }
+    res.status(200).json('Product Deleted')
   }
   catch (err) {
     res.status(500).json(err);
