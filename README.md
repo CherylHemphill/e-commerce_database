@@ -16,6 +16,18 @@ You will need to install the dependencies running the terminal command <strong> 
 
 ## Usage
 
+
+https://github.com/CherylHemphill/e-commerce_database/assets/126039394/a8f9ebc3-cb3b-4e10-9703-fe20d71610a2
+
+
+https://github.com/CherylHemphill/e-commerce_database/assets/126039394/411e715d-b5f7-4a82-8f22-07cfe8525da9
+
+
+
+https://github.com/CherylHemphill/e-commerce_database/assets/126039394/50aa1ff7-8f5b-4d37-b602-ac787e61a998
+
+
+
 [![Demo Video](/images/categories.mp4)]
 [![Demo Video](/images/Products.mp4)]
 [![Demo Video](/images/tags.mp4)]
