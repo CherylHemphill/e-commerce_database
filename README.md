@@ -16,9 +16,9 @@ You will need to install the dependencies running the terminal command <strong> 
 
 ## Usage
 
-[![Demo Video](/images/categories.gif)]
-[![Demo Video](/images/Products.gif)]
-[![Demo Video](/images/tags.gif)]
+[![Demo Video](/images/categories.mp4)]
+[![Demo Video](/images/Products.mp4)]
+[![Demo Video](/images/tags.mp4)]
 
 
 ## License
